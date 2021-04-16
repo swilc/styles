@@ -1,0 +1,35 @@
+h1{
+    color:rgb(31, 31, 31);
+    font-family:Ubuntu
+}
+p{
+    color:rgb(255, 255, 255)
+}
+h2{
+    color:rgb(255, 255, 255);
+    font-family:Ubuntu
+}
+pre{
+    color:rgb(255, 255, 255);
+    white-space: pre-line;
+    font-family: 'Courier New'
+}
+li{
+    color:rgb(255, 255, 255)
+}
+html{
+    background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(116,156,190,1) 53%, rgba(253,187,45,1) 100%);
+}
+body{
+    background-color:rgb(31, 31, 31);
+    margin: 1%
+}
+.header {
+    display: block;
+    margin: auto;
+    padding: 8px;
+    background-color: #dddddd;
+    font-family:Ubuntu;
+    max-width: 40%;
+    text-align: center;
+}
