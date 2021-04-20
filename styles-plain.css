@@ -1,0 +1,23 @@
+h1{
+    color:rgb(255, 255, 255);
+    font-family:Ubuntu
+}
+p{
+    color:rgb(31, 31, 31)
+}
+h2{
+    color:rgb(31, 31, 31);
+    font-family:Ubuntu
+}
+pre{
+    color:rgb(31, 31, 31);
+    white-space: pre-line;
+    font-family: 'Courier New'
+}
+li{
+    color:rgb(31, 31, 31)
+}
+body{
+    background-color:rgb(255, 255, 255);
+    margin: 1%
+}
