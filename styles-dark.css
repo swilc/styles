@@ -1,13 +1,13 @@
 h1{
     color:rgb(31, 31, 31);
-    font-family:Ubuntu
+    font-family:Helvetica
 }
 p{
     color:rgb(255, 255, 255)
 }
 h2{
     color:rgb(255, 255, 255);
-    font-family:Ubuntu
+    font-family:Helvetica
 }
 pre{
     color:rgb(255, 255, 255);
@@ -29,10 +29,10 @@ body{
     margin: auto;
     padding: 8px;
     background-color: #dddddd;
-    font-family:Ubuntu;
+    font-family:Helvetica;
     max-width: 40%;
     text-align: center;
 }
 .font {
-    font-family:Ubuntu
+    font-family:Helvetica
 }
