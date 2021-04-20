@@ -1,11 +1,8 @@
-h1{
-    color:rgb(255, 255, 255);
+p,b ,i{
+    color:rgb(31, 31, 31);
     font-family:Ubuntu
 }
-p{
-    color:rgb(31, 31, 31)
-}
-h2{
+h1, h2{
     color:rgb(31, 31, 31);
     font-family:Ubuntu
 }
