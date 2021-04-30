@@ -14,11 +14,14 @@ pre{
     white-space: pre-line;
     font-family: 'Courier New'
 }
+ul {
+    color: #000000
+}
 li{
     color:rgb(255, 255, 255)
 }
 html{
-    background: #ffffff;
+    background: #111;
 }
 body{
     background-color:rgb(31, 31, 31);
