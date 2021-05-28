@@ -1,46 +1,31 @@
-h1.header{
-    color:rgb(31, 31, 31);
-    font-family:Helvetica
-}
-h1{
-    color:rgb(255, 255, 255);
-    font-family:Helvetica
-}
-p{
-    color:rgb(255, 255, 255)
-}
-h2{
-    color:rgb(255, 255, 255);
-    font-family:Helvetica
-}
-pre{
-    color:rgb(255, 255, 255);
-    white-space: pre-line;
-    font-family: 'Courier New'
-}
-ul {
-    color: #000000
-}
-li{
-    color:rgb(255, 255, 255)
-}
+/*Set HTML background color*/
 html{
     background: #111111;
 }
+
+/*Set body background color. Margin allows
+ * for a mall border around the edge which
+ * shows the HTML's color.*/
 body{
     background-color:rgb(31, 31, 31);
     margin: 1%
 }
+
+/*Set header font/color*/
+h1, h2, h3{
+    color: white;
+    font-family: Quicksand;
+}
+
+/*Set the font and color for most text*/
+p, ul, ol, i, b{
+    color:rgb(255, 255, 255);
+    font-family: "Roboto Condensed";
+}
+
+/*Header*/
 .header {
-    display: block;
-    margin: auto;
-    margin-top: 20px;
-    padding: 8px;
-    background-color: #dddddd;
-    font-family:Helvetica;
-    max-width: 40%;
     text-align: center;
 }
-.font {
-    font-family:Helvetica
-}
+
+/*5-28-2021 | swilc.gitgub.io*/
