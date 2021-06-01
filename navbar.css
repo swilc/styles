@@ -1,0 +1,45 @@
+			/*This goes around the whole thing*/
+			nav{
+				/*Set to flexbox*/
+				display: flex;
+
+				/*Center everything*/
+				justify-content: center;
+			}
+
+			/*All <a> tags that are children of the <nav> tag have these properties*/
+			nav > a{
+				/*Set it to a block*/
+				display: inline-block;
+
+				/*Size*/
+				height: 20px;
+				width: 5%;
+
+				/*Janky way of adding space, will fix later.*/
+				border: 5px solid #1f1f1f;
+
+				/*Color*/
+				background-color: lightgrey;
+
+				/*Center everything*/
+				text-align: center;
+				vertical-align: center;
+
+				/*Add padding*/
+				padding: 10px;
+
+				/*Font stuff*/
+				color: black;
+				text-decoration: none;
+				font-family: Quicksand;
+			}
+
+			/*Hover behavior*/
+			nav > a:hover{
+				/*Go slightly lighter*/
+				background-color: white;
+
+				/*Smooth transition*/
+				transition-duration: 0.5s;
+			}
