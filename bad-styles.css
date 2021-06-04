@@ -1,53 +1,73 @@
+/* This is _supposed_ to look bad.. hence the name*/
+
+/*Set html background color to a wonderful gradient*/
 html{
 	background: radial-gradient(circle, rgba(255,255,255,1) 4%, rgba(0,115,187,1) 100%);
 }
 
+/*All <a> tags in the navigation will have a gradient background*/
 nav > a{
 	background: linear-gradient(180deg, rgba(255,255,255,1) 4%, rgba(255,201,201,1) 100%) !Important;
 }
 
-
-#parent_div {
-	position: fixed ;
-	left: 0 ;
-	bottom: 0 ;
-	z-index: 1 ;
-	width: 100%;
-	height: 100px;
-	margin: 1em auto;
-	border; 1px solid #333;
-	background: #fefebe;
-	padding: 20px;
-}
-#div_moving {
-	position: fixed;
-	width: 140px;
-	height: 65px
-	margin: 0;
-	background: linear-gradient(180deg, rgba(255,255,255,1) 4%, rgba(201,255,207,1) 100%);
-}
-
+/*Set the font. The font will need to be added in the main HTML code as a stylesheet.*/
 p, h1, h2, a{
 	font-family: "Shrikhand";
 }
 
-.ad{
+/*This is the fake popup thing*/
+.virus{
 	display:flex;
 	position: absolute;
 	left: 1400px;
 }
 
+/*Set font to red*/
 .red{
 	color: red;
 }
 
+/*Fixed image height*/
 img{
 	height: 300px;
 }
 
-#footer {
-  position: fixed ;
-  left: 0 ;
-  bottom: 0 ;
-  z-index: 1 ;
-} 
+/*Moving "Allow Cookies" button.*/
+/*Most of this comes from coursesweb.net.*/
+
+/*Container box. Nothing moves unless the cursor is in this box*/
+#parent_div {
+	/*Fix position to the bottom of the screen, even when scrolling*/
+	position: fixed;
+	left: 0 ;
+	bottom: 0 ;
+	z-index: 1 ;
+
+	/*Set dimentions*/
+	width: 100%;
+	height: 100px;
+	margin: 1em auto;
+
+	/*Colors*/
+	border: 1px solid #333;
+	background: #fefebe;
+
+	/*Padding*/
+	padding: 20px;
+
+	/*Set the cursor in this box to a not allowed sign*/
+	cursor: not-allowed;
+}
+#div_moving {
+	/*Positioning*/
+	position: fixed;
+
+	/*Dimentions*/
+	width: 140px;
+	height: 25px;
+
+	/*Yet another gradient background*/
+	background: linear-gradient(180deg, rgba(255,255,255,1) 4%, rgba(201,255,207,1) 100%);
+
+	margin: 0;
+}
